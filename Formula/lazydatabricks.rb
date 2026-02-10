@@ -10,11 +10,11 @@ class Lazydatabricks < Formula
   depends_on "python@3.12"
 
   def install
-    # Create virtualenv and install lazydatabricks with all dependencies via pip
+    # Create virtualenv
     venv = virtualenv_create(libexec, "python3.12")
 
-    # Install the package and all its dependencies using pip
-    system libexec/"bin/pip", "install", "--no-cache-dir", cached_download
+    # Install lazydatabricks from PyPI (lets pip resolve all dependencies)
+    system libexec/"bin/pip", "install", "--no-cache-dir", "lazydatabricks==1.0.0"
 
     # Link the entry point script
     bin.install_symlink libexec/"bin/lazydatabricks"
