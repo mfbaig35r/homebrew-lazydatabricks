@@ -75,8 +75,8 @@ class Lazydatabricks < Formula
   end
 
   resource "linkify-it-py" do
-    url "https://files.pythonhosted.org/packages/30/6f/0ce3475a06da57dba67ffcb5facc110af50e0f5e478b013dc14c333ad309/linkify_it_py-2.0.3.tar.gz"
-    sha256 "d7d3086e19a97f888dbccbfd9b69e4846ce8ea620754beefdb5f5d92bc55b4a2"
+    url "https://files.pythonhosted.org/packages/2a/ae/bb56c6828e4797ba5a4821eec7c43b8bf40f69cda4d4f5f8c8a2810ec96a/linkify-it-py-2.0.3.tar.gz"
+    sha256 "68cda27e162e9215c17d786649d1da0021a451bdc436ef9e0fa0ba5234b9b048"
   end
 
   resource "markdown-it-py" do
@@ -85,8 +85,8 @@ class Lazydatabricks < Formula
   end
 
   resource "mdit-py-plugins" do
-    url "https://files.pythonhosted.org/packages/0c/30/53d6eb3a55b9bb62e1ec0d4e28ef1a02eee1e2f89f1b0e9d6e6e5a39f6da/mdit_py_plugins-0.5.0.tar.gz"
-    sha256 "4cb879a5a80ec013b3a0d9dae57d6c07fce6a0c28eb2df29c3f7df1d57b1e8a0"
+    url "https://files.pythonhosted.org/packages/b2/fd/a756d36c0bfba5f6e39a1cdbdbfdd448dc02692467d83816dff4592a1ebc/mdit_py_plugins-0.5.0.tar.gz"
+    sha256 "f4918cb50119f50446560513a8e311d574ff6aaed72606ddae6d35716fe809c6"
   end
 
   resource "mdurl" do
@@ -160,8 +160,8 @@ class Lazydatabricks < Formula
   end
 
   resource "uc-micro-py" do
-    url "https://files.pythonhosted.org/packages/70/fd/a9d4c9af500c6e63d8cb2e7d0fd96cd3eb2b6bfed8c617927a05c7bdedd1/uc_micro_py-1.0.3.tar.gz"
-    sha256 "6f8a43f05beb0e2bf1eba1c3cff776c03e6f8c53b5e08b8e8f1e2c3a25da1621"
+    url "https://files.pythonhosted.org/packages/91/7a/146a99696aee0609e3712f2b44c6274566bc368dfe8375191278045186b8/uc-micro-py-1.0.3.tar.gz"
+    sha256 "d321b92cff673ec58027c04015fcaa8bb1e005478643ff4a500882eaab88c48a"
   end
 
   resource "urllib3" do
